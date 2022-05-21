@@ -1,0 +1,107 @@
+@media screen and (max-width: 449px) {
+    html {
+        width: 100%;
+    }
+    .header ul {
+        display: none;
+    }
+    .login {
+        display: none;
+    }
+    .logo img {
+        left: 40%;
+    }
+    .header {
+        border: 2px solid #d7c7c7;
+    }
+    .menu img {
+        height: 92px;
+        width: 72px;
+        position: absolute;
+        left: 5%;
+        top: 0%;
+        top: -1%;
+    }
+    .bg img {
+        width: 89vw;
+        height: 164px;
+        left: 6vw;
+    }
+    .bg h1 {
+        left: 25%;
+        font-size: 25px;
+    }
+    .nav {
+        left: 12%;
+        width: 75%;
+        height: 658px;
+        top: 50%;
+    }
+    .slider #img1 {
+        left: 0px;
+    }
+    .slider #img2 {
+        left: 95px;
+    }
+    .slider #img3 {
+        left: 122px;
+    }
+    .display-left {
+        left: 22%;
+        top: 100%;
+    }
+    .display-right {
+        right: 57%;
+        top: 100%;
+    }
+    .written {
+        right: 5%;
+        top: 61%;
+        height: 40%;
+        width: 85%;
+    }
+    .footer {
+        top: 600px;
+        height: 100vh;
+    }
+    .nav1 {
+        left: 5%;
+        width: 90%;
+        height: 100%;
+    }
+    .li1 {
+        width: 90%;
+        height: 25%;
+        top: 5%;
+    }
+    .li1 li {
+        top: 10%;
+    }
+    .li2 li {
+        top: 10%;
+    }
+    .li3 li {
+        top: 10%;
+    }
+    .li2 {
+        top: 38%;
+        left: 5%;
+        width: 90%;
+        height: 25%;
+    }
+    .li3 {
+        top: 70%;
+        left: 5%;
+        width: 90%;
+        height: 25%;
+    }
+}
+
+@media screen and (max-width: 449px) {
+    .written {
+        right: 5%;
+        top: 52%;
+        height: 50%;
+        width: 85%;
+    }
+}

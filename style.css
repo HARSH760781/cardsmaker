@@ -1,0 +1,295 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.err p {
+    font-size: 100%;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    /* border: 5px solid black; */
+    height: 70px;
+}
+
+.header .menu {
+    height: 20px;
+    width: 39px;
+}
+
+.menu img {
+    height: 40px;
+    width: 40px;
+}
+
+.header ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    font-size: 20px;
+    padding-left: 330px;
+}
+
+.header ul li {
+    padding-right: 50px;
+}
+
+.header ul li:hover {
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.logo img {
+    position: absolute;
+    top: 0px;
+    left: 35px;
+}
+
+.login {
+    position: absolute;
+    top: 23px;
+    right: 30px;
+    font-size: 20px;
+}
+
+.login:hover {
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.bg {
+    position: relative;
+}
+
+.bg img {
+    width: 80%;
+    height: 300px;
+    border-radius: 40px;
+    position: relative;
+    top: 30px;
+    left: 170px;
+    z-index: -1;
+}
+
+.bg h1 {
+    position: absolute;
+    top: 50px;
+    left: 600px;
+    font-size: 45px;
+    color: white;
+}
+
+.nav {
+    height: 373px;
+    border: 2px solid black;
+    border-radius: 40px;
+    position: absolute;
+    top: 113px;
+    width: 70%;
+    left: 246px;
+    background: whitesmoke;
+}
+
+.slider {
+    position: relative;
+    width: 540px;
+    height: 302px;
+    left: 80px;
+    top: 20px;
+    /* display: block; */
+}
+
+.slider img {
+    border: 5px solid white;
+}
+
+.slider #img1 {
+    position: absolute;
+    z-index: 3;
+    width: 185px;
+    height: 259px;
+    left: 50px;
+    border-radius: 0px;
+    border: 5px solid wheat;
+    top: 12px;
+}
+
+.slider #img2 {
+    position: absolute;
+    z-index: 2;
+    width: 171px;
+    height: 240px;
+    left: 179px;
+    border-radius: 0px;
+    border: 5px solid wheat;
+    top: 21px;
+}
+
+.slider #img3 {
+    position: absolute;
+    z-index: 1;
+    width: 171px;
+    height: 224px;
+    left: 300px;
+    border-radius: 0px;
+    border: 5px solid wheat;
+}
+
+.display-left {
+    position: absolute;
+    left: 0%;
+    top: 50%;
+    height: 42px;
+    width: 35px;
+}
+
+.display-right {
+    position: absolute;
+    right: 0%;
+    top: 50%;
+    height: 42px;
+    width: 35px;
+}
+
+.written {
+    height: 300px;
+    width: 310px;
+    position: absolute;
+    right: 30px;
+    top: 6px;
+}
+
+h2 {
+    text-align: center;
+    top: 18px;
+    position: relative;
+    font-size: 37px;
+}
+
+h4 {
+    position: relative;
+    top: 27px;
+    left: 30px;
+    font-size: 26px;
+}
+
+h3 {
+    position: absolute;
+    top: 68px;
+    right: 23px;
+    font-size: 29px;
+    text-decoration-thickness: 2px;
+    color: #04f104;
+}
+
+h5 {
+    position: absolute;
+    top: 71px;
+    left: 91px;
+    font-size: 22px;
+    text-decoration: line-through;
+    text-decoration-thickness: 2px;
+}
+
+.written p {
+    position: relative;
+    top: 37px;
+    font-size: 18px;
+    padding-left: 19px;
+    margin: 4px;
+}
+
+.btn {
+    background: #3a2727;
+    color: wheat;
+    font-size: 30px;
+    width: 217px;
+    position: relative;
+    top: 54px;
+    left: 40px;
+    border-radius: 10px;
+    height: 51px;
+    align-self: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.display-left,
+.display-right {
+    border-style: none;
+    background: whitesmoke;
+}
+
+.footer {
+    position: relative;
+    top: 220px;
+}
+
+.footer p {
+    font-size: 40px;
+    text-align: center;
+}
+
+.nav1 {
+    width: 70%;
+    position: relative;
+    top: 14px;
+    left: 263px;
+    border: 5px solid wheat;
+    border-radius: 40px;
+    height: 285px;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
+.li1 {
+    position: absolute;
+    top: 57px;
+    left: 53px;
+    border: 2px solid black;
+    height: 200px;
+    width: 212px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.li1 li {
+    position: relative;
+    top: 171px;
+}
+
+.li2 {
+    position: absolute;
+    top: 57px;
+    left: 411px;
+    border: 2px solid black;
+    height: 200px;
+    width: 212px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.li2 li {
+    position: relative;
+    top: 159px;
+}
+
+.li3 {
+    position: absolute;
+    top: 57px;
+    left: 767px;
+    border: 2px solid black;
+    height: 200px;
+    width: 212px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.li3 li {
+    position: relative;
+    top: 159px;
+}
