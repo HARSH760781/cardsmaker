@@ -30,12 +30,12 @@
         left: 20px;
     }
     .display-left {
-        top: 100%;
-        left: 40%;
+        top: 85%;
+        left: 30%;
     }
     .display-right {
-        top: 100%;
-        right: 40%;
+        top: 85%;
+        right: 60%;
     }
     .bg h1 {
         left: 39%;
@@ -95,6 +95,12 @@
     }
     .li3 {
         left: 588px;
+    }
+    .display-left {
+        left: 25%;
+    }
+    .display-right {
+        right: 65%;
     }
 }
 
@@ -242,34 +248,33 @@
         left: 50%;
     }
     .display-left {
-        left: 35%;
-        top: 100%;
+        left: 18%;
+        top: 85%;
     }
     .display-right {
-        right: 45%;
-        top: 100%;
+        right: 70%;
+        top: 85%;
     }
     .written {
         height: 85%;
         width: 40%;
     }
     h2 {
-        font-size: 100%;
-        font-weight: bold;
+        font-size: 200%;
     }
     h4 {
-        left: 10px;
+        left: 20%;
         font-size: 100%;
-        top: 9%;
+        top: 8%;
     }
     h5 {
-        top: 15%;
-        left: 30%;
+        top: 20%;
+        left: 35%;
         font-size: 100%;
     }
     h3 {
-        top: 15%;
-        right: 0%;
+        top: 20%;
+        right: 10%;
         font-size: 100%;
     }
     .written p {
@@ -306,6 +311,14 @@
     }
     .li3 li {
         top: 5%;
+    }
+}
+
+@media screen and (min-width:650px) {
+    .logo img {
+        top: 1%;
+        left: 3%;
+        width: 15%;
     }
 }
 

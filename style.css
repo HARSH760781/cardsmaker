@@ -139,16 +139,16 @@
 
 .display-left {
     position: absolute;
-    left: 0%;
-    top: 50%;
+    left: 24%;
+    top: 85%;
     height: 42px;
     width: 35px;
 }
 
 .display-right {
     position: absolute;
-    right: 0%;
-    top: 50%;
+    right: 68%;
+    top: 85%;
     height: 42px;
     width: 35px;
 }
