@@ -21,6 +21,33 @@
     }
 }
 
+
+/* @media screen and (min-width: 1433px) {
+    .li1 {
+        left: 25px;
+    }
+    .li2 {
+        left: 73%;
+    }
+    .li3 {
+        left: 90%;
+    }
+    .bg h1 {
+        left: 40%;
+    }
+    .nav1 {
+        top: 200%;
+    }
+    .logo img {
+        top: -21px;
+        left: 3%;
+        width: 10%;
+    }
+    .bg h1 {
+        left: 40%;
+    }
+} */
+
 @media screen and (max-width: 1332px) {
     .li1 {
         left: 25px;
@@ -204,7 +231,7 @@
 
 @media screen and (max-width:993px) and (min-width:650px) {
     .logo img {
-        top: 8px;
+        top: 0%;
         left: 26px;
         width: 114px;
     }
