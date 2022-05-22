@@ -1,6 +1,8 @@
     @media screen and (max-width: 649px) {
-        html {
-            width: 100%;
+        html,
+        body {
+            max-width: 100%;
+            overflow: hidden;
         }
         .header ul {
             display: none;
