@@ -1,4 +1,4 @@
-@media screen and (min-width: 450px) {
+@media screen and (min-width: 650px) {
     .menu {
         display: none;
     }
@@ -122,7 +122,7 @@
     }
 }
 
-@media screen and (max-width: 1092px) and (min-width: 961px) {
+@media screen and (max-width: 1092px) and (min-width: 993px) {
     .header ul {
         padding-left: 92px;
     }
@@ -319,11 +319,5 @@
         top: 1%;
         left: 3%;
         width: 15%;
-    }
-}
-
-@media screen and (min-width:450px) and (max-width:649px) {
-    body {
-        display: none;
     }
 }
