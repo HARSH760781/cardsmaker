@@ -265,7 +265,7 @@ h5 {
 .li2 {
     position: absolute;
     top: 57px;
-    left: 411px;
+    right: 45%;
     border: 2px solid black;
     height: 200px;
     width: 212px;
@@ -281,7 +281,7 @@ h5 {
 .li3 {
     position: absolute;
     top: 57px;
-    left: 767px;
+    right: 10%;
     border: 2px solid black;
     height: 200px;
     width: 212px;
